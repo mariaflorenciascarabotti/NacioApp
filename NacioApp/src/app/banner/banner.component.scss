@@ -1,7 +1,40 @@
 .c-item{
-    height: 31rem;
-    .c-img{
-        height: 100%;
-        object-fit:cover;
+    height: 332px;
+   .c-img{
+        float: right;
+        margin-right: 7rem;
+    }
+    .infoBanner{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-weight: bold;
+        line-height: 1;
+        font-size: 2.8rem;
+        span{
+            font-weight: lighter
+        }
+    }
+    .lemaNacio{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        line-height: 1;
+        
+        .lema1{
+            margin: 0;
+            font-size: 2rem;
+            padding-bottom: .5rem;
+        }
+        .lema2{
+            font-size: 1.2rem;
+
+        }
+
+    }
+    .ciudadBanner{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
     }
 }

@@ -2,17 +2,19 @@
     background: rgb(101,153,255);
     background: linear-gradient(90deg, rgba(101,153,255,1) 11%, rgba(53,72,110,1) 76%);    
     color: #fff;
-    padding: 0 5rem;
+    padding: 0 4rem;
     .redes{
         width: 8rem;
     }
 }
 
 .c-navbar{
-    padding: 0 5rem;
+    padding: 0 4rem;
 
     .logoNacio{
-        background-color: transparent;
+       position: relative;
+       z-index: 10;
+       top: -28px;
     }
     .texto-logo{
         margin: 0 1rem;
