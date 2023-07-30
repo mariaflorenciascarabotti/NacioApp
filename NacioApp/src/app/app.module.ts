@@ -7,9 +7,15 @@ import { InicioComponent } from './inicio/inicio.component';
 import { InstitucionComponent } from './institucion/institucion.component';
 import { CarrerasComponent } from './carreras/carreras.component';
 import { EstudianteComponent } from './estudiante/estudiante.component';
-import { CampusVistualComponent } from './campus-vistual/campus-vistual.component';
+import { CampusVirtualComponent } from './campus-virtual/campus-virtual.component';
 import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
+import { FormInicioComponent } from './form-inicio/form-inicio.component';
+import { FooterComponent } from './footer/footer.component';
+import { AnalisisComponent } from './carreras/analisis/analisis.component';
+import { DisenoComponent } from './carreras/diseno/diseno.component';
+import { InfraestructuraComponent } from './carreras/infraestructura/infraestructura.component';
+import { ComercioComponent } from './carreras/comercio/comercio.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +24,15 @@ import { BannerComponent } from './banner/banner.component';
     InstitucionComponent,
     CarrerasComponent,
     EstudianteComponent,
-    CampusVistualComponent,
+    CampusVirtualComponent,
     HeaderComponent,
-    BannerComponent
+    BannerComponent,
+    FormInicioComponent,
+    FooterComponent,
+    AnalisisComponent,
+    DisenoComponent,
+    InfraestructuraComponent,
+    ComercioComponent
   ],
   imports: [
     BrowserModule,

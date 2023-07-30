@@ -1,40 +1,119 @@
-.c-item{
-    height: 332px;
-   .c-img{
-        float: right;
-        margin-right: 7rem;
+.c-carusel{
+    height: 100%;
+    .c-item{
+        .c-img{
+                float: right;
+                margin-right: 7rem;
+            }
+            .infoBanner{
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                font-weight: bold;
+                line-height: 1;
+                font-size: 2.8rem;
+                span{
+                    font-weight: lighter
+                }
+            }
+            .lemaNacio{
+                position: absolute;
+                top: 60%;
+                left: 10%;
+                line-height: 1;
+                
+                .lema1{
+                    margin: 0;
+                    font-size: 2rem;
+                    padding-bottom: .5rem;
+                }
+                .lema2{
+                    font-size: 1.2rem;
+                }
+            }
+            .ciudadBanner{
+                position: absolute;
+                bottom: 2%;
+                right: 9%;
+                font-weight: bold;
+                font-size: 1.25rem;
+                color: #424242
+            }
     }
-    .infoBanner{
-        position: absolute;
-        top: 10%;
-        left: 10%;
-        font-weight: bold;
-        line-height: 1;
-        font-size: 2.8rem;
-        span{
-            font-weight: lighter
+    .c-analisis{
+        height: 20.5rem;
+        background-color: #3E4095;
+        padding-left: 6rem;
+        h2{
+            font-weight: bold;
+            line-height: 1;
+            font-size: 2.8rem;
+            span{
+                font-weight: lighter
+            }
+        }
+        .img-portada{
+            height: 30rem;
+            padding-right: 7rem;
         }
     }
-    .lemaNacio{
-        position: absolute;
-        top: 60%;
-        left: 10%;
-        line-height: 1;
-        
-        .lema1{
-            margin: 0;
-            font-size: 2rem;
-            padding-bottom: .5rem;
+    .c-diseno{
+        height: 20.5rem;
+        background-color: #F58634;
+        padding-left: 6rem;
+        h2{
+            font-weight: bold;
+            line-height: 1;
+            font-size: 2.8rem;
+            span{
+                font-weight: lighter
+            }
         }
-        .lema2{
-            font-size: 1.2rem;
+        .img-portada{
+            height: 30rem;
+            padding-right: 7rem;
+        }
 
+    }
+    .c-infra{
+        height: 20.5rem;
+        background-color:#00AFF0;
+        padding-left: 6rem;
+        h2{
+            font-weight: bold;
+            line-height: 1;
+            font-size: 2.8rem;
+            span{
+                font-weight: lighter
+            }
+        }
+        .img-portada{
+            height: 30rem;
+            padding-right: 7rem;
         }
 
     }
-    .ciudadBanner{
-        position: absolute;
-        bottom: 0;
-        right: 10%;
+    .c-comercio{
+        height: 20.5rem;
+        background-color: #EC3439;
+        padding-left: 6rem;
+        h2{
+            font-weight: bold;
+            line-height: 1;
+            font-size: 2.8rem;
+            span{
+                font-weight: lighter
+            }
+        }
+        .img-portada{
+            height: 31rem;
+            padding-right: 7rem;
+        }
+
     }
+    .nombre-carrera{
+        margin: 4rem 0 0 3rem;
+        color: #fff;
+    }
+    
 }

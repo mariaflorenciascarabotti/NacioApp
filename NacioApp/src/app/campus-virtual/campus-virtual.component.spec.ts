@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CampusVistualComponent } from './campus-vistual.component';
+import { CampusVirtualComponent } from './campus-virtual.component';
 
-describe('CampusVistualComponent', () => {
-  let component: CampusVistualComponent;
-  let fixture: ComponentFixture<CampusVistualComponent>;
+describe('CampusVirtualComponent', () => {
+  let component: CampusVirtualComponent;
+  let fixture: ComponentFixture<CampusVirtualComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CampusVistualComponent ]
+      declarations: [ CampusVirtualComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CampusVistualComponent);
+    fixture = TestBed.createComponent(CampusVirtualComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

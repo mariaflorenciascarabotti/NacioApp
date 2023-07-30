@@ -9,16 +9,17 @@
 }
 
 .c-navbar{
-    padding: 0 4rem;
+    padding: .8rem 3rem;
 
     .logoNacio{
-       position: relative;
+       position: absolute;
        z-index: 10;
-       top: -28px;
+       top: 0px;
+    }
+    p{
+       margin: 0; 
     }
     .texto-logo{
-        margin: 0 1rem;
-        height: fit-content;
-        align-self: center;
+        margin-left: 6rem;
     }
 }

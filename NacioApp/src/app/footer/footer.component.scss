@@ -1,0 +1,51 @@
+.footer{
+    
+    .filaUno{
+        background-color: #000000;
+        height: 17em;
+        color: #fff;
+        
+        .columUno{
+            line-height: 1;
+            text-align: center;
+                   
+            .imgLogo{
+                width: 8rem;
+                margin: 2rem 0 1rem;
+                filter: grayscale(5);
+            }
+        }            
+    }
+        
+    .filaDos{
+        height: 1.2rem;
+        .colUno{
+            background-color: rgb(56, 56, 56);
+            
+            p{
+                font-size: .8rem;
+                margin: 0;
+                padding: 0 2rem 0 0;
+                text-align: end;
+                color: #616161;
+            
+            }
+        }
+        .colDos{
+            margin: 0;
+            padding: 0;
+            .colcolor1{
+                background-color: #3E4095;
+            }
+            .colcolor2{
+                background-color: #F58634;
+            }
+            .colcolor3{
+                background-color:#00AFF0;
+            }.colcolor4{
+                background-color: #EC3439;
+            }
+        }
+    
+    }
+}

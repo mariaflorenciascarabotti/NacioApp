@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="form-container">
+        <div class="left-container">
+            <div class="left-inner-container">
+                <h2>Dejanos tu consulta</h2>
+                <p>Si tienes alguna consulta, no dudes en comunicarte con nosotros</p>
+                <p>Te estaremos respondiendo lo anteas posible</p>
+                <p>Gracias por comunicarte con el Colegio Florentino Amegrhino TERCIARIO</p>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-inner-container">
+                <form action="mailto:florenciascarabotti@gmail.com" method="post" enctype="text/plain">
+                <h2 class="sm-view">¡Escribinos!</h2>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="text" placeholder="Apellido" required>
+                    <input type="email" placeholder="Email" required>
+               
+                    <div class="form-floating">
+                        <select class="form-select" id="consulta-carrera" aria-label="Floating label select example">
+                            <option selected disabled></option>
+                            <option value="analisis">Análisis Funcional</option>
+                            <option value="disenoGrafico">Diseño Gráfico</option>
+                            <option value="infraestructura">Infraestructura</option>
+                            <option value="comercializacion">Comercialización</option>
+                        </select>
+                        <label for="consulta-carrera">Carrera a consultar</label>
+                    </div>
+
+                    <textarea rows="4" placeholder="Deja aquí tu consulta" required></textarea>
+                    <div class="d-flex justify-content-evenly mt-2">
+                        <button type="submit" class="btn btn-primary button-form">Enviar</button>
+                        <button type="reset" class="btn btn-secondary button-form">Borrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
