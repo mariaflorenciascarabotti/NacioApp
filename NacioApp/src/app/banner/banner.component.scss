@@ -1,6 +1,5 @@
 .c-carusel{
     .c-item{   
-       // height: 100%;   
         .texto-banner{ 
             margin: 2rem 0 0 10rem;
             position: absolute;
@@ -42,8 +41,6 @@
             }
             @media only screen and (max-width: 810px) {
                 .infoBanner{
-                      //  padding-right: 1rem;
-                       // margin-right: 1rem;
                         font-size: 2.3rem;
                     span{
                     font-size: 1.6rem ;
@@ -92,12 +89,7 @@
                     }
                 }
             } 
-           /* @media only screen and (max-width: 502px) {
-                .infoBanner{
-                    font-size: 1.6rem;
-                
-                }
-            } */
+      
             @media only screen and (max-width: 400px) {
                 .infoBanner{
                     font-size: 1.6rem;
@@ -107,16 +99,6 @@
                     }
                 }
             } 
-        /*    @media only screen and (max-width: 532px) {
-                .infoBanner{
-                    font-size: 1.5rem;
-                    padding-right: 2rem;
-                    span{
-                     font-size: 1rem ;
-                    }
-                }
-            }*/
-
 
             .lemaNacio{
                 line-height: 1;
@@ -124,15 +106,19 @@
                     margin: 0;
                     font-size: 2rem;
                     padding-bottom: .5rem;
+                    color: #000000;
                 }
                 .lema2{
                     font-size: 1.2rem;
                     margin-bottom: 0.5rem;
+                    color: #000000;
+
                 }
                 .ciudadBanner{
                      font-weight: lighter;
                      font-size: 1.25rem;
-                     color: #424242
+                     color: #000000;
+
                 }
                 @media screen and (max-width: 1188px) {
                     .lema1 {font-size: 1.8rem;}
@@ -147,14 +133,10 @@
                 @media only screen and (max-width: 992px) {
                     .lema1 {font-size: 1.2rem;}                 
                 }
-                @media only screen and (max-width: 950px) {
-                    .ciudadBanner {display: none;}               
-                }
-                @media only screen and (max-width: 882px) {
-                   // .lema2 {display: none;}
-                }
-                @media only screen and (max-width: 810px) {
-                  // .lema1 {display: none;}
+                @media only screen and (max-width: 520px) {
+                   .ciudadBanner {
+                    font-weight: bold;
+                    }               
                 }
             }
             
@@ -176,11 +158,7 @@
                 padding-right: 1rem;
             }
         }
-       /* @media only screen and (max-width: 840px) {
-            .texto-banner{
-                position: static;
-            }
-        }*/
+     
         @media only screen and (max-width: 810px) {
             .texto-banner{
                 margin: 2rem 0 0 6rem;
@@ -207,8 +185,7 @@
             display: flex;
             justify-content: end;
             .c-img{
-                margin-right: 0rem;
-               // float: right;
+                margin-right: 4rem;
             }
             @media only screen and (max-width: 1144px) {
                 .c-img{
@@ -220,17 +197,6 @@
                     margin-right: 3rem;
                 }
             }
-           
-          /*  @media only screen and (max-width: 849px) {
-                .c-img{
-                    margin-right: 1.5rem;
-                }
-            }
-            @media only screen and (max-width: 849px) {
-                img{
-                   display: none;
-                }
-            }*/
         }
         @media only screen and (max-width: 810px) {
             .img-banner{
@@ -274,8 +240,22 @@
             }
             @media only screen and (max-width: 605px) {
                 img{
+                    left: 13rem;
+                }
+            }
+            @media only screen and (max-width: 575px) {
+                img{
                     left: 10rem;
-                    
+                }
+            }
+            @media only screen and (max-width: 528px) {
+                img{
+                    left: 8rem;
+                }
+            }
+            @media only screen and (max-width: 498px) {
+                img{
+                    left: 5rem;
                 }
             }
         }
@@ -285,27 +265,60 @@
                 
             }
         }
-        
     } 
     
-
     .c-analisis{
         height: 20.5rem;
-       // background-color: #3E4095;
         padding-left: 6rem;
-        h2{
-            font-weight: bold;
-            line-height: 1;
-            font-size: 2.8rem;
-            span{
-                font-weight: lighter
+        .nombre-carrera{
+            h2{
+                font-weight: bold;
+                line-height: 1;
+                font-size: 2.8rem;
+                span{
+                    font-weight: lighter
+                }
             }
         }
-       
+        @media only screen and (max-width: 1120px) {
+            .nombre-carrera{
+                width: 42%;
+            } 
+        }
+        @media only screen and (max-width: 926px) {
+            .nombre-carrera{
+                width: 80%;
+            } 
+        }
+        @media only screen and (max-width: 543px) {
+            .nombre-carrera{
+                width: 75%;
+            } 
+        }
+        @media only screen and (max-width: 700px) {
+            .nombre-carrera{
+                margin-left: 4rem;
+            } 
+        }
+        @media only screen and (max-width: 450px) {
+            .nombre-carrera{
+                margin-left: 3rem;
+                margin-top: 3rem;
+            } 
+        }
+        @media only screen and (max-width: 977px) {
+            .nombre-carrera>h2{
+                font-size: 2.4rem;
+            } 
+        }
+        @media only screen and (max-width: 630px) {
+            .nombre-carrera>h2{
+                font-size: 2rem;
+            } 
+        }
         .verPlan{
             background-color:#3E4095; //#8a8ae2;
             color: #ffffff; 
-           // border:1px solid #21214e;
             margin-top: 1rem;
             box-shadow: 1px 2px 0px #555555;
         }
@@ -317,20 +330,79 @@
         }
         .img-portada{
             height: 23rem;
-            padding-left: 7rem;
+            padding-left: 4rem;
+        }
+        @media only screen and (max-width: 1234px) {
+            .img-portada{
+                padding-left: 1rem;
+            } 
+        }
+        @media only screen and (max-width: 1130px) {
+            .img-portada{
+                padding-left: 0rem;
+            } 
+        }
+        @media only screen and (max-width: 926px) {
+            .img-portada{
+                display: none;
+            } 
         }
     }
+    @media only screen and (max-width: 1234px) {
+        .c-analisis{
+            padding-left: 4rem;
+        } 
+    }
+    @media only screen and (max-width: 950px) {
+        .c-analisis{
+            padding-left: 2rem;
+        } 
+    }
+    
     .c-diseno{
         height: 20.5rem;
        // background-color: #F58634;
         padding-left: 6rem;
-        h2{
-            font-weight: bold;
-            line-height: 1;
-            font-size: 2.8rem;
-            span{
-                font-weight: lighter
+        .nombre-carrera{
+            h2{
+                font-weight: bold;
+                line-height: 1;
+                font-size: 2.8rem;
+                span{
+                    font-weight: lighter
+                }
             }
+        }     
+        @media only screen and (max-width: 926px) {
+            .nombre-carrera{
+                width: 80%;
+            } 
+        }
+        @media only screen and (max-width: 543px) {
+            .nombre-carrera{
+                width: 75%;
+            } 
+        }
+        @media only screen and (max-width: 700px) {
+            .nombre-carrera{
+                margin-left: 4rem;
+            } 
+        }
+        @media only screen and (max-width: 450px) {
+            .nombre-carrera{
+                margin-left: 3rem;
+                margin-top: 3rem;
+            } 
+        }
+        @media only screen and (max-width: 977px) {
+            .nombre-carrera>h2{
+                font-size: 2.4rem;
+            } 
+        }
+        @media only screen and (max-width: 630px) {
+            .nombre-carrera>h2{
+                font-size: 2rem;
+            } 
         }
         .verPlan{
             background-color:#F58634; //#ffb682;
@@ -347,22 +419,91 @@
         }
         .img-portada{
             height: 21rem;
-            padding-left: 10rem;
+            padding-right: 10rem;
         }
-
+        @media only screen and (max-width: 1234px) {
+            .img-portada{
+            //    padding-left: 0rem;
+            } 
+        }
+        @media only screen and (max-width: 1175px) {
+            .img-portada{
+                padding-right: 7rem;
+            } 
+        }
+        @media only screen and (max-width: 1130px) {
+            .img-portada{
+                padding-left: 2rem;
+            } 
+        }
+        @media only screen and (max-width: 926px) {
+            .img-portada{
+                display: none;
+            } 
+        }
     }
+    @media only screen and (max-width: 1234px) {
+        .c-diseno{
+            padding-left: 5rem;
+        } 
+    }
+    @media only screen and (max-width: 950px) {
+        .c-diseno{
+            padding-left: 2rem;
+        } 
+    }
+    
     .c-infra{
         height: 20.5rem;
        // background-color:#00AFF0;
         padding-left: 6rem;
-        h2{
-            font-weight: bold;
-            line-height: 1;
-            font-size: 2.8rem;
-            span{
-                font-weight: lighter
+        .nombre-carrera{
+            h2{
+                font-weight: bold;
+                line-height: 1;
+                font-size: 2.8rem;
+                span{
+                    font-weight: lighter
+                }
             }
         }
+        @media only screen and (max-width: 1197px) {
+            .nombre-carrera{
+                width: 53%;
+            } 
+        }
+        @media only screen and (max-width: 926px) {
+            .nombre-carrera{
+                width: 80%;
+            } 
+        }
+        @media only screen and (max-width: 543px) {
+            .nombre-carrera{
+                width: 75%;
+            } 
+        }
+        @media only screen and (max-width: 700px) {
+            .nombre-carrera{
+                margin-left: 4rem;
+            } 
+        }
+        @media only screen and (max-width: 450px) {
+            .nombre-carrera{
+                margin-left: 3rem;
+                margin-top: 3rem;
+            } 
+        }
+        @media only screen and (max-width: 1187px) {
+            .nombre-carrera>h2{
+                font-size: 2.4rem;
+            } 
+        }
+        @media only screen and (max-width: 630px) {
+            .nombre-carrera>h2{
+                font-size: 2rem;
+            } 
+        }
+        
         .verPlan{
             background-color:#00AFF0;//#5ad3ff;
             color: rgb(255, 255, 255); 
@@ -380,20 +521,81 @@
             height: 21rem;
             padding-right: 7rem;
         }
+        @media only screen and (max-width: 1234px) {
+            .img-portada{
+                padding-left: 1rem;
+            } 
+        }
+        @media only screen and (max-width: 1130px) {
+            .img-portada{
+                padding-left: 0rem;
+            } 
+        }
+        @media only screen and (max-width: 926px) {
+            .img-portada{
+                display: none;
+            } 
+        }
 
     }
+    @media only screen and (max-width: 1234px) {
+        .c-infra{
+            padding-left: 4rem;
+        } 
+    }
+    @media only screen and (max-width: 950px) {
+        .c-infra{
+            padding-left: 2rem;
+        } 
+    }
+    
     .c-comercio{
         height: 20.5rem;
         //background-color: #EC3439;
         padding-left: 6rem;
-        h2{
-            font-weight: bold;
-            line-height: 1;
-            font-size: 2.8rem;
-            span{
-                font-weight: lighter;
+        .nombre-carrera{
+            h2{
+                font-weight: bold;
+                line-height: 1;
+                font-size: 2.8rem;
+                span{
+                    font-weight: lighter;
+                }
             }
         }
+       
+        @media only screen and (max-width: 926px) {
+            .nombre-carrera{
+                width: 80%;
+            } 
+        }
+        @media only screen and (max-width: 543px) {
+            .nombre-carrera{
+                width: 75%;
+            } 
+        }
+        @media only screen and (max-width: 700px) {
+            .nombre-carrera{
+                margin-left: 4rem;
+            } 
+        }
+        @media only screen and (max-width: 450px) {
+            .nombre-carrera{
+                margin-left: 3rem;
+                margin-top: 3rem;
+            } 
+        }
+        @media only screen and (max-width: 977px) {
+            .nombre-carrera>h2{
+                font-size: 2.4rem;
+            } 
+        }
+        @media only screen and (max-width: 630px) {
+            .nombre-carrera>h2{
+                font-size: 2rem;
+            } 
+        }
+
         .verPlan{
             background-color:#EC3439; //#ff777c;
             color: #ffffff; 
@@ -409,78 +611,44 @@
         }
         .img-portada{
             height: 29rem;
-            
             margin-left: 8rem;
+        }
+        @media only screen and (max-width: 1234px) {
+            .img-portada{
+                margin-left: 4rem;
+            } 
+        }
+        @media only screen and (max-width: 1130px) {
+            .img-portada{
+                margin-left: 0rem;
+            } 
+        }
+        @media only screen and (max-width: 1075px) {
+            .img-portada{
+                margin-left: -4rem;
+            } 
+        }
+        @media only screen and (max-width: 926px) {
+            .img-portada{
+                display: none;
+            } 
         }
 
     }
+     @media only screen and (max-width: 1234px) {
+        .c-comercio{
+            padding-left: 4rem;
+        } 
+    }
+    @media only screen and (max-width: 950px) {
+        .c-comercio{
+            padding-left: 2rem;
+        } 
+    }
+    
     .nombre-carrera{
         margin: 4rem 0 0 6rem;
         color: #000000;
         
     }
-} 
-
-.futuro-queries{
-    display: none;
-    .lema1{
-        font-size: 1.4rem;    
-        margin: 0; 
-    }  
-    @media only screen and (max-width: 810px) {
-        .lema1{
-            font-size: 1.3rem;       
-        } 
-    }
 }
-@media only screen and (max-width: 810px) {
-    .futuro-queries{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;     
-    }
-   
-}
-.lemaNacio-queries{
-    display: none;
-    .lema2{
-        font-size: 1.2rem;
-        margin-bottom: 0;
-        padding-right: 1rem;
-        
-    }
-    .ciudadBanner{
-        font-weight: lighter;
-        font-size: 1.25rem;
-        color: #424242;
-        margin-bottom:  0;
-
-    }
-}
-.ciudadBanner-queries{
-    display: none;
-    .ciudadBanner{
-        font-weight: lighter;
-        font-size: 1.25rem;
-        color: #424242;
-        margin-bottom:  0;
-
-    }
-}
-
-@media only screen and (max-width: 882px) {
-    .ciudadBanner-queries{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-    }
-   
-}
-
-/*.lema1{
-    margin: 0;
-    font-size: 2rem;
-    padding-bottom: .5rem;
-}*/
