@@ -183,7 +183,7 @@
         .img-banner{
            
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
             .c-img{
                 margin-right: 4rem;
             }
@@ -209,7 +209,7 @@
         @media only screen and (max-width: 810px) {
             .img-banner-pq{
                 display: flex;
-                justify-content: end;
+                justify-content: flex-end;
                 height: 54vh;
                 padding-right: 4rem;
             }
