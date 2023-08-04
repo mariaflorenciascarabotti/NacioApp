@@ -1,0 +1,26 @@
+
+
+.scroll-to-top{
+  position: fixed;
+  bottom: 1.9rem;
+  right: 1rem;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.show-scrollTop{
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  
+  z-index: 1;
+}
+.i-top{
+  border-radius: 50%;
+  color: #6c757d;
+  text-decoration: none;
+  outline-style: auto;
+}
+
+  .i-top:hover{
+      scale: 1.25;
+  }

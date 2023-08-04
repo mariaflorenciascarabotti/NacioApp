@@ -2,11 +2,12 @@ import { DOCUMENT } from '@angular/common';
 import { Component, HostListener, Inject, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-inicio',
-  templateUrl: './inicio.component.html',
-  styleUrls: ['./inicio.component.scss']
+  selector: 'app-scroll-link',
+  templateUrl: './scroll-link.component.html',
+  styleUrls: ['./scroll-link.component.scss']
 })
-export class InicioComponent implements OnInit {
+
+export class ScrollLinkComponent implements OnInit {
 
   windowScrolled?:boolean;
 

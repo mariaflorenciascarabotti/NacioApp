@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-banner',
@@ -7,9 +8,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
+  irPlanAnalisis() {
+    this.router.navigate(['Carrera/analisis']);
+  }
+  irPlanDiseno() {
+    this.router.navigate(['Carrera/diseno']);
+  }
+  irPlanInfra() {
+    this.router.navigate(['Carrera/infraestructura']);
+  }
+  irPlanComercio() {
+    this.router.navigate(['Carrera/comercializacion']);
+  }
   ngOnInit(): void {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

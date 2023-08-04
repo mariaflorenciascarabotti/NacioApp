@@ -38,11 +38,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
-.container {
-	background-color: yellow;
-	width: 768px;
+.cont{
+	background-color: rgba(212, 212, 212, 0.856);
+	width:100vw;
 	max-width: 100%;
     min-width:370px;
+    padding: 0;
 
     .form-container {
         display:flex;

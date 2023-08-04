@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg flex-column p-0">
+<nav id="inicio-top" class="navbar navbar-expand-lg flex-column p-0">
     <div class="container-redes container-fluid justify-content-end">
         <p class="my-1">Seguinos</p>
         <div class="redes d-flex justify-content-around ps-2">
@@ -16,7 +16,7 @@
           </svg>
         </div>
     </div>
-    <div class="container-fluid c-navbar">
+    <div  class="container-fluid c-navbar">
         <a class="navbar-brand d-flex" href="#">
             <img src="assets/imagenes/LOGO nacio1.png" alt="Logo" width="75" height=auto class="d-inline-block align-text-top logoNacio">
             <p class="texto-logo">Nivel Terciario</p>
@@ -30,28 +30,27 @@
             <a class="nav-link" aria-current="page" href="">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink='Institucion' routerLinkActive="active">Institución</a>
+            <a class="nav-link" href="#institucion">Institución</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Carreras
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" routerLink='Carrera/analisis' routerLinkActive="active">Analista Funcional de Sistemas Informáticos</a></li>
-              <li><a class="dropdown-item" routerLink='Carrera/diseno' routerLinkActive="active">Diseño Gráfico y Publicitario</a></li>
-              <li><a class="dropdown-item" routerLink='Carrera/infraestructura' routerLinkActive="active">Soporte de Infraestructura de Tecnología de la Información</a></li>
-              <li><a class="dropdown-item" routerLink='Carrera/comercio' routerLinkActive="active">Comercialización</a></li>
+              <li><a class="dropdown-item" routerLink="Carrera/analisis" href="#analisis">Analista Funcional de Sistemas Informáticos</a></li>
+              <li><a class="dropdown-item" routerLink="Carrera/diseno" href="#diseno">Diseño Gráfico y Publicitario</a></li>
+              <li><a class="dropdown-item" routerLink="Carrera/infraestructura" href="#infraestructura">Soporte de Infraestructura de Tecnología de la Información</a></li>
+              <li><a class="dropdown-item" routerLink="Carrera/comercializacion" href="#comercio">Comercialización</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink='Estudiante' routerLinkActive="active" >Estudiante</a>
+            <a class="nav-link" routerLink="Estudiante" href="#estudiante" >Estudiante</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink='Campus' routerLinkActive="active" >Campus Virtual</a>
+            <a class="nav-link" routerLink="Campus" href="#campus">Campus Virtual</a>
           </li>
         </ul>
         </div>
     </div>
 </nav> 
 
-<router-outlet></router-outlet>

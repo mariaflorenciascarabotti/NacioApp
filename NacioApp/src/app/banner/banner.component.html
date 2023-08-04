@@ -10,22 +10,36 @@
     <div class="carousel-inner c-carusel">
 
       <div class="carousel-item active c-item">
-        <img src="../../assets/portadaNacio1.png" class="d-block c-img img-fluid" alt="Portada Nacio">
-        <div class="infoBanner">
-          <p>Tecnicaturas <br>Superiores <span>en el</span><br> Terciario <span>del</span> NACIO</p>
+       
+        <div class="texto-banner ">  
+          <div class="infoBanner1 ">
+            <p class="infoBanner">Tecnicaturas Superiores<span> en el </span>Terciario<span> del </span>NACIO</p>
+          </div>
+          <div class="lemaNacio">
+            <p class="lema1">¡Tu FUTURO está acá!</p>
+            <p class="lema2">Te estamos esperando</p>
+            <p class="ciudadBanner">Cañada de Gómez</p>
+          </div>
         </div>
-        <div class="lemaNacio">
-          <p class="lema1">¡Tú FUTURO esta acá!</p>
-          <p class="lema2">Te estamos esperando</p>
+        <div class="img-banner container-fluid">
+          <img src="../../assets/portadaNacio1.png" class="c-img d-block img-fluid" alt="Portada Nacio">
         </div>
-        <p class="ciudadBanner">Cañada de Gómez</p>
+        <div class="img-banner-pq container-fluid">
+          <img src="../../assets/portadaNacio1-sinLogo.png" class="c-img d-block img-fluid" alt="Portada Nacio">
+        </div>
+        <div class="img-banner-logo container-fluid">
+          <img src="../../assets/portadaColores1.png" class="c-img d-block img-fluid" alt="Portada Nacio">
+        </div>
+
       </div>
+      
 
       <div class="carousel-item c-analisis">
         <div class="d-flex">
           <div class="nombre-carrera">
             <h3>Técnico Superior</h3>
-            <h2>Análisis Funcional <span>de</span>Sistemas Informáticos</h2>
+            <h2>Análisis Funcional <br><span>de</span> Sistemas Informáticos</h2>
+            <button (click)="irPlanAnalisis()" type="button" class="btn verPlan">Ver Plan de Estudio</button>
           </div>
           <img class="float-end img-portada" src="../../assets/portadaAnalisis.png" alt="Portada Analisis Funcional">
           <!-- <a href="https://www.freepik.es/vector-gratis/ilustracion-concepto-analisis-sentimiento_12832600.htm#query=analista%20en%20sistema&position=10&from_view=search&track=ais">Imagen de storyset</a> en Freepik -->
@@ -36,7 +50,9 @@
         <div class="d-flex">
           <div class="nombre-carrera">
             <h3>Técnico Superior</h3>
-            <h2>Diseño Gráfico <span>y</span> Publicitario</h2>  
+            <h2>Diseño Gráfico <span>y</span><br>Publicitario</h2>  
+            <button (click)="irPlanDiseno()" type="button" class="btn verPlan">Ver Plan de Estudio</button>
+
           </div>
           <img class="float-end img-portada" src="../../assets/portadaDiseno1.png" alt="diseño Gráfico">
           <!-- <a href="https://www.freepik.es/vector-gratis/pagina-inicio-diseno-grafico-dibujos-animados_17806779.htm#query=diseno%20grafico&position=4&from_view=keyword&track=ais">Imagen de pikisuperstar</a>  -->
@@ -48,6 +64,8 @@
           <div class="nombre-carrera">
             <h3>Técnico Superior</h3>
             <h2>Soporte <span>de</span> Infraestructura <span>de</span>Tecnología <span>de la </span>Información</h2>
+            <button (click)="irPlanInfra()" type="button" class="btn verPlan">Ver Plan de Estudio</button>
+
           </div>
           <img class="float-end img-portada" src="../../assets/infraPortada.png" alt="Portada Infraestructura">
           <!-- <a href="https://www.freepik.es/vector-gratis/centro-datos-empleados-servidor-servicios-seguridad-infraestructura-almacenamiento-nube-carpeta-microchip_4024830.htm#query=infraestructura%20informatica&position=35&from_view=search&track=ais">Imagen de macrovector</a> en Freepik -->
@@ -59,12 +77,13 @@
           <div class="nombre-carrera">
             <h3>Técnico Superior</h3>
             <h2>Comercialización</h2>
+            <button (click)="irPlanComercio()" type="button" class="btn verPlan">Ver Plan de Estudio</button>
           </div>
           <img class="float-end img-portada" src="../../assets/comercioPortada.png" alt="Portada Comercialización">
           <!-- Imagen de <a href="https://www.freepik.es/vector-gratis/concepto-moderno-productividad-diseno-plano_3271200.htm#query=administracion%20de%20empresas&position=5&from_view=search&track=ais">Freepik</a> -->
         </div>
       </div>
-
+      
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -75,3 +94,14 @@
       <span class="visually-hidden">Siguiente</span>
     </button>
 </div>
+
+
+<!-- <div class="futuro-queries">
+  <p class="lema1">¡Tu FUTURO está acá!</p>
+</div>
+<div class="lemaNacio-queries">
+  <p class="lema2">Te estamos esperando</p>
+</div>  -->
+<div class="ciudadBanner-queries">
+  <p class="ciudadBanner">Cañada de Gómez</p>
+</div> 

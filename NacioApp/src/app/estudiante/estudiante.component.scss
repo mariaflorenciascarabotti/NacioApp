@@ -1,0 +1,23 @@
+
+.contenedor-estudiante{
+    padding: 0 6rem;
+  
+    .fila-uno{
+      .titulo-estudiante{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .p-estudiante{
+        text-align: justify;
+        padding-right: 3.4rem;
+      }
+    }
+    
+    .fila-dos{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem ;
+        
+    }
+  }
+  

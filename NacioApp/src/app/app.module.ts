@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,6 +18,7 @@ import { AnalisisComponent } from './carreras/analisis/analisis.component';
 import { DisenoComponent } from './carreras/diseno/diseno.component';
 import { InfraestructuraComponent } from './carreras/infraestructura/infraestructura.component';
 import { ComercioComponent } from './carreras/comercio/comercio.component';
+import { ScrollLinkComponent } from './scroll-link/scroll-link.component';
 
 @NgModule({
   declarations: [
@@ -32,11 +35,14 @@ import { ComercioComponent } from './carreras/comercio/comercio.component';
     AnalisisComponent,
     DisenoComponent,
     InfraestructuraComponent,
-    ComercioComponent
+    ComercioComponent,
+    ScrollLinkComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,27 +1,125 @@
 .c-carusel{
-    height: 100%;
-    .c-item{
-        .c-img{
-                float: right;
-                margin-right: 7rem;
-            }
+    .c-item{   
+       // height: 100%;   
+        .texto-banner{ 
+            margin: 2rem 0 0 10rem;
+            position: absolute;
             .infoBanner{
-                position: absolute;
-                top: 10%;
-                left: 10%;
+                width: 35vw;
                 font-weight: bold;
                 line-height: 1;
                 font-size: 2.8rem;
                 span{
-                    font-weight: lighter
+                    font-weight: lighter;
+                    font-size: 2.4rem;
+                }                
+            }
+            @media screen and (max-width: 1188px) {
+                .infoBanner{
+                    font-size: 2.5rem;
+                    span{
+                     font-size: 2rem ;
+                    }
+                }
+            } 
+            @media only screen and (max-width: 1046px) {
+                .infoBanner{
+                    font-size: 2.3rem;
+                    span{
+                     font-size: 1.9rem ;
+                    }
                 }
             }
-            .lemaNacio{
-                position: absolute;
-                top: 60%;
-                left: 10%;
-                line-height: 1;
+            @media only screen and (max-width: 840px) {
+                .infoBanner{
+                        padding-right: 1rem;
+                        margin-right: 1rem;
+                        font-size: 2rem;
+                    span{
+                    font-size: 1.6rem ;
+                    }
+                }  
+            }
+            @media only screen and (max-width: 810px) {
+                .infoBanner{
+                      //  padding-right: 1rem;
+                       // margin-right: 1rem;
+                        font-size: 2.3rem;
+                    span{
+                    font-size: 1.6rem ;
+                    }
+                }  
+            }
+            @media only screen and (max-width: 755px) {
+                .infoBanner{
+                        padding-right: 1rem;
+                        
+                        font-size: 2rem;
+                    span{
+                    font-size: 1.4rem ;
+                    }
+                }  
+            }
+            
+            @media only screen and (max-width: 728px) {
+                .infoBanner{
+                    font-size: 2rem;
+                    span{
+                     font-size: 1.7rem ;
+                    }
+                }
+            }
+            @media only screen and (max-width: 705px) {
+                .infoBanner{
+                    z-index: 5;
+                    background-color: #000000;
+                    color: #fff;
+                    width: 72vw;
+                    font-size: 1.8 rem;
+                    padding: .5rem 1rem;
+                    margin-top: 1rem;
+                    span{
+                     font-size: 1.6rem ;
+                    }
+                }
+            }
+           @media only screen and (max-width: 610px) {
+                .infoBanner{
+                    font-size: 1.7rem;
+                    margin-top: 2rem;
+                    span{
+                     font-size: 1.3rem ;
+                    }
+                }
+            } 
+           /* @media only screen and (max-width: 502px) {
+                .infoBanner{
+                    font-size: 1.6rem;
                 
+                }
+            } */
+            @media only screen and (max-width: 400px) {
+                .infoBanner{
+                    font-size: 1.6rem;
+                    margin-top: 1rem;
+                    span{
+                     font-size: 1.2rem ;
+                    }
+                }
+            } 
+        /*    @media only screen and (max-width: 532px) {
+                .infoBanner{
+                    font-size: 1.5rem;
+                    padding-right: 2rem;
+                    span{
+                     font-size: 1rem ;
+                    }
+                }
+            }*/
+
+
+            .lemaNacio{
+                line-height: 1;
                 .lema1{
                     margin: 0;
                     font-size: 2rem;
@@ -29,20 +127,171 @@
                 }
                 .lema2{
                     font-size: 1.2rem;
+                    margin-bottom: 0.5rem;
+                }
+                .ciudadBanner{
+                     font-weight: lighter;
+                     font-size: 1.25rem;
+                     color: #424242
+                }
+                @media screen and (max-width: 1188px) {
+                    .lema1 {font-size: 1.8rem;}
+                    .lema2 {font-size: 1.1rem; }
+                    .ciudadBanner {font-size: 1.15rem; }
+                } 
+                @media only screen and (max-width: 1046px) {
+                    .lema1 {font-size: 1.5rem;}
+                    .lema2 {font-size: 0.9rem; }
+                    .ciudadBanner {font-size: 1rem; }
+                }
+                @media only screen and (max-width: 992px) {
+                    .lema1 {font-size: 1.2rem;}                 
+                }
+                @media only screen and (max-width: 950px) {
+                    .ciudadBanner {display: none;}               
+                }
+                @media only screen and (max-width: 882px) {
+                   // .lema2 {display: none;}
+                }
+                @media only screen and (max-width: 810px) {
+                  // .lema1 {display: none;}
                 }
             }
-            .ciudadBanner{
-                position: absolute;
-                bottom: 2%;
-                right: 9%;
-                font-weight: bold;
-                font-size: 1.25rem;
-                color: #424242
+            
+        }
+        @media only screen and (max-width: 1125px) {
+            .texto-banner{
+                margin: 2rem 0 0 8rem;
             }
-    }
+        }
+        @media only screen and (max-width: 966px) {
+            .texto-banner{
+                margin: 2rem 0 0 6rem;
+                padding-right: 1rem;
+            }
+        }
+        @media only screen and (max-width: 882px) {
+            .texto-banner{
+                margin: 2rem 0 0 6rem;
+                padding-right: 1rem;
+            }
+        }
+       /* @media only screen and (max-width: 840px) {
+            .texto-banner{
+                position: static;
+            }
+        }*/
+        @media only screen and (max-width: 810px) {
+            .texto-banner{
+                margin: 2rem 0 0 6rem;
+            }
+        }
+        @media only screen and (max-width: 720px) {
+            .texto-banner{
+                margin: 2rem 0 0 5rem;
+            }
+        }
+        @media only screen and (max-width: 612px) {
+            .texto-banner{
+                margin: 1rem 0 0 5rem;
+            }
+        }
+        @media only screen and (max-width: 543px) {
+            .texto-banner{
+                margin: 1rem 0 0 4.5rem;
+            }
+        }
+        
+        .img-banner{
+           
+            display: flex;
+            justify-content: end;
+            .c-img{
+                margin-right: 0rem;
+               // float: right;
+            }
+            @media only screen and (max-width: 1144px) {
+                .c-img{
+                    height: 54vh;
+                }
+            }
+            @media only screen and (max-width: 992px) {
+                .c-img{
+                    margin-right: 3rem;
+                }
+            }
+           
+          /*  @media only screen and (max-width: 849px) {
+                .c-img{
+                    margin-right: 1.5rem;
+                }
+            }
+            @media only screen and (max-width: 849px) {
+                img{
+                   display: none;
+                }
+            }*/
+        }
+        @media only screen and (max-width: 810px) {
+            .img-banner{
+                display: none;
+            }
+        }
+        .img-banner-pq{
+            display: none;
+        }
+        @media only screen and (max-width: 810px) {
+            .img-banner-pq{
+                display: flex;
+                justify-content: end;
+                height: 54vh;
+                padding-right: 4rem;
+            }
+        }
+        @media only screen and (max-width: 756px) {
+            .img-banner-pq{
+                padding-right: 3rem;
+            }
+        }
+        @media only screen and (max-width: 685px) {
+            .img-banner-pq{
+                padding-right: 2rem;
+            }
+        }
+        @media only screen and (max-width: 705px) {
+            .img-banner-pq{
+                opacity: 0;
+            }
+        }
+        .img-banner-logo{
+            display: none;
+            img{
+                top: 0rem;
+                position: absolute;
+                left: 15rem;
+                width: 30rem;
+                z-index: -1;
+            }
+            @media only screen and (max-width: 605px) {
+                img{
+                    left: 10rem;
+                    
+                }
+            }
+        }
+        @media only screen and (max-width: 705px) {
+            .img-banner-logo{
+                display: contents;
+                
+            }
+        }
+        
+    } 
+    
+
     .c-analisis{
         height: 20.5rem;
-        background-color: #3E4095;
+       // background-color: #3E4095;
         padding-left: 6rem;
         h2{
             font-weight: bold;
@@ -52,14 +301,28 @@
                 font-weight: lighter
             }
         }
+       
+        .verPlan{
+            background-color:#3E4095; //#8a8ae2;
+            color: #ffffff; 
+           // border:1px solid #21214e;
+            margin-top: 1rem;
+            box-shadow: 1px 2px 0px #555555;
+        }
+         .verPlan:hover{
+            background-color: #8a8ae2; // #21214e;
+            color: #000000; 
+            border:none;
+            box-shadow: 4px 4px 3px #00000036 inset;
+        }
         .img-portada{
-            height: 30rem;
-            padding-right: 7rem;
+            height: 23rem;
+            padding-left: 7rem;
         }
     }
     .c-diseno{
         height: 20.5rem;
-        background-color: #F58634;
+       // background-color: #F58634;
         padding-left: 6rem;
         h2{
             font-weight: bold;
@@ -69,15 +332,28 @@
                 font-weight: lighter
             }
         }
+        .verPlan{
+            background-color:#F58634; //#ffb682;
+            color: #ffffff; 
+           // border:1px solid #f36a0a;
+            margin-top: 1rem;
+            box-shadow: 1px 2px 0px #555555;
+        }
+         .verPlan:hover{
+            background-color: #f36a0a;   
+            color: #000000; 
+            border:none;
+            box-shadow: 4px 4px 3px #00000036 inset;
+        }
         .img-portada{
-            height: 30rem;
-            padding-right: 7rem;
+            height: 21rem;
+            padding-left: 10rem;
         }
 
     }
     .c-infra{
         height: 20.5rem;
-        background-color:#00AFF0;
+       // background-color:#00AFF0;
         padding-left: 6rem;
         h2{
             font-weight: bold;
@@ -87,33 +363,124 @@
                 font-weight: lighter
             }
         }
+        .verPlan{
+            background-color:#00AFF0;//#5ad3ff;
+            color: rgb(255, 255, 255); 
+           // border:1px solid #0d6a8b;
+            margin-top: 1rem;
+            box-shadow: 1px 2px 0px #555555;
+        }
+         .verPlan:hover{
+            background-color: #5ad3ff;// #0d6a8b;
+            color: #000000; 
+            border:none;
+            box-shadow: 4px 4px 3px #00000036 inset;
+        }
         .img-portada{
-            height: 30rem;
+            height: 21rem;
             padding-right: 7rem;
         }
 
     }
     .c-comercio{
         height: 20.5rem;
-        background-color: #EC3439;
+        //background-color: #EC3439;
         padding-left: 6rem;
         h2{
             font-weight: bold;
             line-height: 1;
             font-size: 2.8rem;
             span{
-                font-weight: lighter
+                font-weight: lighter;
             }
         }
+        .verPlan{
+            background-color:#EC3439; //#ff777c;
+            color: #ffffff; 
+           // border:1px solid #c90006;
+            margin-top: 1rem;
+            box-shadow: 1px 2px 0px #555555;
+        }
+         .verPlan:hover{
+            background-color: #ff777c;// #c90006;
+            color: #000000; 
+            border:none;
+            box-shadow: 4px 4px 3px #00000036 inset;
+        }
         .img-portada{
-            height: 31rem;
-            padding-right: 7rem;
+            height: 29rem;
+            
+            margin-left: 8rem;
         }
 
     }
     .nombre-carrera{
-        margin: 4rem 0 0 3rem;
-        color: #fff;
+        margin: 4rem 0 0 6rem;
+        color: #000000;
+        
     }
-    
+} 
+
+.futuro-queries{
+    display: none;
+    .lema1{
+        font-size: 1.4rem;    
+        margin: 0; 
+    }  
+    @media only screen and (max-width: 810px) {
+        .lema1{
+            font-size: 1.3rem;       
+        } 
+    }
 }
+@media only screen and (max-width: 810px) {
+    .futuro-queries{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;     
+    }
+   
+}
+.lemaNacio-queries{
+    display: none;
+    .lema2{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding-right: 1rem;
+        
+    }
+    .ciudadBanner{
+        font-weight: lighter;
+        font-size: 1.25rem;
+        color: #424242;
+        margin-bottom:  0;
+
+    }
+}
+.ciudadBanner-queries{
+    display: none;
+    .ciudadBanner{
+        font-weight: lighter;
+        font-size: 1.25rem;
+        color: #424242;
+        margin-bottom:  0;
+
+    }
+}
+
+@media only screen and (max-width: 882px) {
+    .ciudadBanner-queries{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+   
+}
+
+/*.lema1{
+    margin: 0;
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}*/
