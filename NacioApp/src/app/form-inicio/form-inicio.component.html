@@ -11,12 +11,12 @@
         <div class="right-container">
             <div class="right-inner-container">
                 <form action="mailto:florenciascarabotti@gmail.com" method="post" enctype="text/plain">
-                <h2 class="sm-view">¡Escribinos!</h2>
-                    <input type="text" placeholder="Nombre" required>
-                    <input type="text" placeholder="Apellido" required>
-                    <input type="email" placeholder="Email" required>
+                <h2 class="sm-view">Dejanos tu consulta</h2>
+                    <input type="text" placeholder="Nombre" id="nombre" required>
+                    <input type="text" placeholder="Apellido" id="apellido"  required>
+                    <input type="email" placeholder="Email" id="email"  required>
                
-                    <div class="form-floating">
+                    <div class="form-floating s-car">
                         <select class="form-select" id="consulta-carrera" aria-label="Floating label select example">
                             <option selected disabled></option>
                             <option value="analisis">Análisis Funcional</option>
@@ -28,9 +28,9 @@
                     </div>
 
                     <textarea rows="4" placeholder="Deja aquí tu consulta" required></textarea>
-                    <div class="d-flex justify-content-evenly mt-2">
+                    <div class="d-flex justify-content-end" style="gap: 1rem;">
                         <button type="submit" class="btn btn-primary button-form">Enviar</button>
-                        <button type="reset" class="btn btn-secondary button-form">Borrar</button>
+                        <button type="reset" class="btn btn-primary button-form">Borrar</button>
                     </div>
                 </form>
             </div>

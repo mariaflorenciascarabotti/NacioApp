@@ -1,22 +1,79 @@
 .footer{
-    
+    padding: 0;
     .filaUno{
         background-color: #000000;
-        height: 17em;
+        height: 17rem;
         color: #fff;
         overflow: hidden;
+        gap:5rem;
         
         .columUno{
             line-height: 1;
             text-align: center;
+            margin-left: 2rem;
                    
             .imgLogo{
                 width: 8rem;
                 margin: 2rem 0 1rem;
                 filter: grayscale(5);
             }
-        }            
+        } 
+        @media only screen and (max-width: 610px) {
+            .columUno{
+                display: none;
+            }       
+        } 
+        .c-dosTres{
+            
+            .columDos{
+            display: flex;
+            width: 25rem;
+                .contacto{
+                    h3{
+                        margin: 2rem 0;
+                    }
+                }
+            }
+       
+            .columTres{
+                display:flex;
+                align-items: end;
+                margin-bottom: 3.5rem;
+                padding-right: 1rem;
+                gap: 1rem;
+                svg{
+                width: 20px;
+                height: 20px;
+                }
+                svg:hover{
+                scale: 1.2;
+                }
+            } 
+
+        }
+        @media only screen and (max-width: 610px) {
+            .c-dosTres{
+             padding-left: 2rem;
+            }   
+        } 
+        @media only screen and (max-width: 740px) {
+            .c-dosTres{
+            flex-direction: column;
+            }   
+        }   
     }
+    @media only screen and (max-width: 830px) {
+        .filaUno{
+            gap: 3rem;
+        }
+               
+    } 
+    @media only screen and (max-width: 740px) {
+        .filaUno{
+            height: 20rem;
+        }
+               
+    } 
         
     .filaDos{
         height: 1.2rem;

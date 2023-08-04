@@ -10,20 +10,15 @@ ul{
     margin-top: 3rem;
     padding: 0 7rem;
 }
+@media only screen and (max-width: 680px) {
+    .contenedor-todo{
+        padding: 0 3rem;
 
-.card-body{
-    height: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    .card-title{
-        margin: 0;
-        height: 120px;
-        span{
-            font-size: .8rem;
-            font-weight:400;
-        }
-    }
-    p{margin: 0;}
-    
+    } 
+}
+@media only screen and (max-width: 1133px) {
+    .i-carrera{
+        display: none;
+
+    } 
 }

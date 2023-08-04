@@ -1,3 +1,39 @@
 .contenedor-todo{
     margin-top: 0rem;
+    padding: 0 7rem;
+}
+@media only screen and (max-width: 576px) {
+    .contenedor-todo{
+        padding: 0 5.5rem;
+
+    } 
+}
+
+.card-body{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .card-title{
+        margin: 0;
+        height: 120px;
+        span{
+            font-size: .8rem;
+            font-weight:400;
+        }
+    }
+    @media only screen and (max-width: 1084px) {
+        .card-title{
+            height: 150px;
+        } 
+    }
+
+    p{margin: 0;}
+
+    @media  (min-width: 993px) and (max-width: 1084px) {
+        .btn{
+            font-size: .75rem;
+        } 
+    }
+    
 }

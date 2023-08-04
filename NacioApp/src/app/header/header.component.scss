@@ -5,7 +5,14 @@
     padding: 0 4rem;
     .redes{
         width: 8rem;
+        a{
+            color:#fff;
+        }
+        a:hover{
+            scale: 1.25;
+        }
     }
+    
 }
 
 .c-navbar{
@@ -22,6 +29,27 @@
     }
     .texto-logo{
         margin-left: 6rem;
+    }
+    .nav-link:hover{
+        border-radius: 20px;
+        background-color: rgba(101, 152, 255, 0.527);
+    }
+    .da:hover{
+        background-color: #3E4095;
+        color: #fff;
+
+    }
+    .dd:hover{
+        background-color: #F58634;
+
+    }
+    .di:hover{
+        background-color: #00AFF0;
+
+    }
+    .dc:hover{
+        background-color: #EC3439;
+
     }
 }
 
