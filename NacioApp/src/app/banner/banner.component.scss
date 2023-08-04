@@ -7,66 +7,23 @@
                 width: 35vw;
                 font-weight: bold;
                 line-height: 1;
-                font-size: 2.8rem;
+                font-size: 2.5rem;
                 span{
                     font-weight: lighter;
-                    font-size: 2.4rem;
+                    font-size: 2rem;
                 }                
             }
-            @media screen and (max-width: 1188px) {
+
+            @media screen and (max-width: 992px) {
                 .infoBanner{
-                    font-size: 2.5rem;
+                    font-size: 2.2rem;
                     span{
-                     font-size: 2rem ;
+                     font-size: 1rem ;
                     }
                 }
-            } 
-            @media only screen and (max-width: 1046px) {
-                .infoBanner{
-                    font-size: 2.3rem;
-                    span{
-                     font-size: 1.9rem ;
-                    }
-                }
-            }
-            @media only screen and (max-width: 840px) {
-                .infoBanner{
-                        padding-right: 1rem;
-                        margin-right: 1rem;
-                        font-size: 2rem;
-                    span{
-                    font-size: 1.6rem ;
-                    }
-                }  
-            }
-            @media only screen and (max-width: 810px) {
-                .infoBanner{
-                        font-size: 2.3rem;
-                    span{
-                    font-size: 1.6rem ;
-                    }
-                }  
-            }
-            @media only screen and (max-width: 755px) {
-                .infoBanner{
-                        padding-right: 1rem;
-                        
-                        font-size: 2rem;
-                    span{
-                    font-size: 1.4rem ;
-                    }
-                }  
             }
             
-            @media only screen and (max-width: 728px) {
-                .infoBanner{
-                    font-size: 2rem;
-                    span{
-                     font-size: 1.7rem ;
-                    }
-                }
-            }
-            @media only screen and (max-width: 705px) {
+            @media only screen and (max-width: 576px) {
                 .infoBanner{
                     z-index: 5;
                     background-color: #000000;
@@ -74,37 +31,26 @@
                     width: 72vw;
                     font-size: 1.8 rem;
                     padding: .5rem 1rem;
-                    margin-top: 1rem;
+                    margin-top: 0rem;
                     span{
                      font-size: 1.6rem ;
                     }
                 }
             }
-           @media only screen and (max-width: 610px) {
+            @media only screen and (max-width: 420px) {
                 .infoBanner{
-                    font-size: 1.7rem;
-                    margin-top: 2rem;
+                    font-size: 1.3rem;
+                   
                     span{
-                     font-size: 1.3rem ;
+                     font-size: 1rem ;
                     }
                 }
             } 
-      
-            @media only screen and (max-width: 400px) {
-                .infoBanner{
-                    font-size: 1.6rem;
-                    margin-top: 1rem;
-                    span{
-                     font-size: 1.2rem ;
-                    }
-                }
-            } 
-
             .lemaNacio{
                 line-height: 1;
                 .lema1{
                     margin: 0;
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                     padding-bottom: .5rem;
                     color: #000000;
                 }
@@ -120,63 +66,37 @@
                      color: #000000;
 
                 }
-                @media screen and (max-width: 1188px) {
-                    .lema1 {font-size: 1.8rem;}
-                    .lema2 {font-size: 1.1rem; }
-                    .ciudadBanner {font-size: 1.15rem; }
-                } 
-                @media only screen and (max-width: 1046px) {
-                    .lema1 {font-size: 1.5rem;}
-                    .lema2 {font-size: 0.9rem; }
+                @media only screen and (max-width: 768px) {
+                    .lema1 {font-size: 1.25rem;}
+                    .lema2 {font-size: 1rem; }
                     .ciudadBanner {font-size: 1rem; }
                 }
-                @media only screen and (max-width: 992px) {
-                    .lema1 {font-size: 1.2rem;}                 
-                }
-                @media only screen and (max-width: 520px) {
-                   .ciudadBanner {
-                    font-weight: bold;
-                    }               
+                @media only screen and (max-width: 576px) {
+                    .ciudadBanner {
+                     font-weight: bold;
+                     }               
+                 }
+                 @media only screen and (max-width: 360px) {
+                    .lema1 {font-size: 1rem;}
+                    .lema2 {font-size: .8rem; }
+                    .ciudadBanner {font-size: .8rem; }
                 }
             }
             
         }
-        @media only screen and (max-width: 1125px) {
-            .texto-banner{
-                margin: 2rem 0 0 8rem;
-            }
-        }
-        @media only screen and (max-width: 966px) {
-            .texto-banner{
-                margin: 2rem 0 0 6rem;
-                padding-right: 1rem;
-            }
-        }
-        @media only screen and (max-width: 882px) {
-            .texto-banner{
-                margin: 2rem 0 0 6rem;
-                padding-right: 1rem;
-            }
-        }
-     
-        @media only screen and (max-width: 810px) {
-            .texto-banner{
-                margin: 2rem 0 0 6rem;
-            }
-        }
-        @media only screen and (max-width: 720px) {
-            .texto-banner{
-                margin: 2rem 0 0 5rem;
-            }
-        }
-        @media only screen and (max-width: 612px) {
+        @media only screen and (max-width: 768px) {
             .texto-banner{
                 margin: 1rem 0 0 5rem;
             }
         }
-        @media only screen and (max-width: 543px) {
+        @media only screen and (max-width: 576px) {
             .texto-banner{
-                margin: 1rem 0 0 4.5rem;
+                margin-left: 4rem;
+            }
+        }
+        @media only screen and (max-width: 360px) {
+            .texto-banner{
+                margin-left: 3rem;
             }
         }
         
@@ -187,18 +107,14 @@
             .c-img{
                 margin-right: 4rem;
             }
-            @media only screen and (max-width: 1144px) {
+           @media only screen and (max-width: 1200px) {
                 .c-img{
                     height: 54vh;
                 }
             }
-            @media only screen and (max-width: 992px) {
-                .c-img{
-                    margin-right: 3rem;
-                }
-            }
+            
         }
-        @media only screen and (max-width: 810px) {
+        @media only screen and (max-width: 768px) {
             .img-banner{
                 display: none;
             }
@@ -206,25 +122,16 @@
         .img-banner-pq{
             display: none;
         }
-        @media only screen and (max-width: 810px) {
+        @media only screen and (max-width: 768px) {
             .img-banner-pq{
                 display: flex;
                 justify-content: flex-end;
                 height: 54vh;
-                padding-right: 4rem;
-            }
-        }
-        @media only screen and (max-width: 756px) {
-            .img-banner-pq{
-                padding-right: 3rem;
-            }
-        }
-        @media only screen and (max-width: 685px) {
-            .img-banner-pq{
                 padding-right: 2rem;
             }
         }
-        @media only screen and (max-width: 705px) {
+    
+        @media only screen and (max-width: 576px) {
             .img-banner-pq{
                 opacity: 0;
             }
@@ -238,28 +145,18 @@
                 width: 30rem;
                 z-index: -1;
             }
-            @media only screen and (max-width: 605px) {
-                img{
-                    left: 13rem;
-                }
-            }
-            @media only screen and (max-width: 575px) {
+            @media only screen and (max-width: 576px) {
                 img{
                     left: 10rem;
                 }
             }
-            @media only screen and (max-width: 528px) {
-                img{
-                    left: 8rem;
-                }
-            }
-            @media only screen and (max-width: 498px) {
+            @media only screen and (max-width: 360px) {
                 img{
                     left: 5rem;
                 }
             }
         }
-        @media only screen and (max-width: 705px) {
+        @media only screen and (max-width: 576px) {
             .img-banner-logo{
                 display: contents;
                 
@@ -280,88 +177,71 @@
                 }
             }
         }
-        @media only screen and (max-width: 1120px) {
+        @media only screen and (max-width: 1200px) {
             .nombre-carrera{
                 width: 42%;
             } 
         }
-        @media only screen and (max-width: 926px) {
-            .nombre-carrera{
-                width: 80%;
-            } 
-        }
-        @media only screen and (max-width: 543px) {
+        @media only screen and (max-width: 992px) {
             .nombre-carrera{
                 width: 75%;
-            } 
-        }
-        @media only screen and (max-width: 700px) {
-            .nombre-carrera{
                 margin-left: 4rem;
             } 
         }
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 576px) {
             .nombre-carrera{
-                margin-left: 3rem;
-                margin-top: 3rem;
+                width: 90%;
+                margin-left: 2rem;
+                margin-top: 2rem;
             } 
         }
-        @media only screen and (max-width: 977px) {
+
+        @media only screen and (max-width: 992px) {
             .nombre-carrera>h2{
                 font-size: 2.4rem;
             } 
         }
-        @media only screen and (max-width: 630px) {
+       
+        @media only screen and (max-width: 576px) {
             .nombre-carrera>h2{
-                font-size: 2rem;
+                font-size: 1.2rem;
+            } 
+            .nombre-carrera>h3{
+                font-size: 1rem;
             } 
         }
         .verPlan{
-            background-color:#3E4095; //#8a8ae2;
+            background-color:#3E4095; 
             color: #ffffff; 
             margin-top: 1rem;
             box-shadow: 1px 2px 0px #555555;
         }
          .verPlan:hover{
-            background-color: #8a8ae2; // #21214e;
+            background-color: #8a8ae2; 
             color: #000000; 
             border:none;
             box-shadow: 4px 4px 3px #00000036 inset;
         }
         .img-portada{
             height: 23rem;
-            padding-left: 4rem;
+            padding-left: 1rem;
         }
-        @media only screen and (max-width: 1234px) {
-            .img-portada{
-                padding-left: 1rem;
-            } 
-        }
-        @media only screen and (max-width: 1130px) {
-            .img-portada{
-                padding-left: 0rem;
-            } 
-        }
-        @media only screen and (max-width: 926px) {
+    
+        @media only screen and (max-width: 992px) {
             .img-portada{
                 display: none;
             } 
         }
     }
-    @media only screen and (max-width: 1234px) {
+    @media only screen and (max-width: 1200px) {
         .c-analisis{
             padding-left: 4rem;
         } 
     }
-    @media only screen and (max-width: 950px) {
-        .c-analisis{
-            padding-left: 2rem;
-        } 
-    }
+   
     
     .c-diseno{
         height: 20.5rem;
-       // background-color: #F58634;
         padding-left: 6rem;
         .nombre-carrera{
             h2{
@@ -373,35 +253,37 @@
                 }
             }
         }     
-        @media only screen and (max-width: 926px) {
+        @media only screen and (max-width: 1200px) {
             .nombre-carrera{
-                width: 80%;
+                width: 42%;
             } 
         }
-        @media only screen and (max-width: 543px) {
+        @media only screen and (max-width: 992px) {
             .nombre-carrera{
                 width: 75%;
-            } 
-        }
-        @media only screen and (max-width: 700px) {
-            .nombre-carrera{
                 margin-left: 4rem;
             } 
         }
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 576px) {
             .nombre-carrera{
-                margin-left: 3rem;
-                margin-top: 3rem;
+                width: 90%;
+                margin-left: 2rem;
+                margin-top: 2rem;
             } 
         }
-        @media only screen and (max-width: 977px) {
+
+        @media only screen and (max-width: 992px) {
             .nombre-carrera>h2{
                 font-size: 2.4rem;
             } 
         }
-        @media only screen and (max-width: 630px) {
+        
+        @media only screen and (max-width: 576px) {
             .nombre-carrera>h2{
-                font-size: 2rem;
+                font-size: 1.2rem;
+            } 
+            .nombre-carrera>h3{
+                font-size: 1rem;
             } 
         }
         .verPlan{
@@ -418,44 +300,23 @@
             box-shadow: 4px 4px 3px #00000036 inset;
         }
         .img-portada{
-            height: 21rem;
+            height: 18rem;
             padding-right: 10rem;
         }
-        @media only screen and (max-width: 1234px) {
-            .img-portada{
-            //    padding-left: 0rem;
-            } 
-        }
-        @media only screen and (max-width: 1175px) {
-            .img-portada{
-                padding-right: 7rem;
-            } 
-        }
-        @media only screen and (max-width: 1130px) {
-            .img-portada{
-                padding-left: 2rem;
-            } 
-        }
-        @media only screen and (max-width: 926px) {
+        @media only screen and (max-width: 992px) {
             .img-portada{
                 display: none;
             } 
         }
     }
-    @media only screen and (max-width: 1234px) {
+    @media only screen and (max-width: 1200px) {
         .c-diseno{
-            padding-left: 5rem;
-        } 
-    }
-    @media only screen and (max-width: 950px) {
-        .c-diseno{
-            padding-left: 2rem;
+            padding-left: 4rem;
         } 
     }
     
     .c-infra{
         height: 20.5rem;
-       // background-color:#00AFF0;
         padding-left: 6rem;
         .nombre-carrera{
             h2{
@@ -467,53 +328,43 @@
                 }
             }
         }
-        @media only screen and (max-width: 1197px) {
-            .nombre-carrera{
-                width: 53%;
-            } 
-        }
-        @media only screen and (max-width: 926px) {
-            .nombre-carrera{
-                width: 80%;
-            } 
-        }
-        @media only screen and (max-width: 543px) {
+       
+        @media only screen and (max-width: 992px) {
             .nombre-carrera{
                 width: 75%;
-            } 
-        }
-        @media only screen and (max-width: 700px) {
-            .nombre-carrera{
-                margin-left: 4rem;
-            } 
-        }
-        @media only screen and (max-width: 450px) {
-            .nombre-carrera{
                 margin-left: 3rem;
-                margin-top: 3rem;
             } 
         }
-        @media only screen and (max-width: 1187px) {
-            .nombre-carrera>h2{
-                font-size: 2.4rem;
+        @media only screen and (max-width: 576px) {
+            .nombre-carrera{
+                width: 90%;
+                margin-left: 2rem;
+                margin-top: 2rem;
             } 
         }
-        @media only screen and (max-width: 630px) {
+        @media only screen and (max-width: 1250px) {
             .nombre-carrera>h2{
-                font-size: 2rem;
+                font-size: 2.1rem;
+            } 
+        }
+      
+        @media only screen and (max-width: 576px) {
+            .nombre-carrera>h2{
+                font-size: 1.2rem;
+            } 
+            .nombre-carrera>h3{
+                font-size: 1rem;
             } 
         }
         
         .verPlan{
-            background-color:#00AFF0;//#5ad3ff;
+            background-color:#00AFF0;
             color: rgb(255, 255, 255); 
-           // border:1px solid #0d6a8b;
             margin-top: 1rem;
             box-shadow: 1px 2px 0px #555555;
         }
          .verPlan:hover{
-            background-color: #5ad3ff;// #0d6a8b;
-            color: #000000; 
+            background-color: #5ad3ff;
             border:none;
             box-shadow: 4px 4px 3px #00000036 inset;
         }
@@ -521,37 +372,19 @@
             height: 21rem;
             padding-right: 7rem;
         }
-        @media only screen and (max-width: 1234px) {
-            .img-portada{
-                padding-left: 1rem;
-            } 
-        }
-        @media only screen and (max-width: 1130px) {
-            .img-portada{
-                padding-left: 0rem;
-            } 
-        }
-        @media only screen and (max-width: 926px) {
+        @media only screen and (max-width: 992px) {
             .img-portada{
                 display: none;
             } 
         }
-
     }
-    @media only screen and (max-width: 1234px) {
+    @media only screen and (max-width: 1200px) {
         .c-infra{
             padding-left: 4rem;
         } 
     }
-    @media only screen and (max-width: 950px) {
-        .c-infra{
-            padding-left: 2rem;
-        } 
-    }
-    
     .c-comercio{
         height: 20.5rem;
-        //background-color: #EC3439;
         padding-left: 6rem;
         .nombre-carrera{
             h2{
@@ -564,85 +397,64 @@
             }
         }
        
-        @media only screen and (max-width: 926px) {
+        @media only screen and (max-width: 1200px) {
             .nombre-carrera{
                 width: 80%;
             } 
         }
-        @media only screen and (max-width: 543px) {
+        @media only screen and (max-width: 992px) {
             .nombre-carrera{
                 width: 75%;
-            } 
-        }
-        @media only screen and (max-width: 700px) {
-            .nombre-carrera{
                 margin-left: 4rem;
             } 
         }
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 576px) {
             .nombre-carrera{
-                margin-left: 3rem;
-                margin-top: 3rem;
+                width: 90%;
+                margin-left: 2rem;
+                margin-top: 2rem;
             } 
         }
-        @media only screen and (max-width: 977px) {
+
+        @media only screen and (max-width: 992px) {
             .nombre-carrera>h2{
                 font-size: 2.4rem;
             } 
         }
-        @media only screen and (max-width: 630px) {
+        
+        @media only screen and (max-width: 576px) {
             .nombre-carrera>h2{
-                font-size: 2rem;
+                font-size: 1.2rem;
+            } 
+            .nombre-carrera>h3{
+                font-size: 1rem;
             } 
         }
-
         .verPlan{
-            background-color:#EC3439; //#ff777c;
+            background-color:#EC3439; 
             color: #ffffff; 
-           // border:1px solid #c90006;
             margin-top: 1rem;
             box-shadow: 1px 2px 0px #555555;
         }
          .verPlan:hover{
-            background-color: #ff777c;// #c90006;
+            background-color: #ff777c;
             color: #000000; 
             border:none;
             box-shadow: 4px 4px 3px #00000036 inset;
         }
         .img-portada{
             height: 29rem;
-            margin-left: 8rem;
+            margin-left: 0rem;
         }
-        @media only screen and (max-width: 1234px) {
-            .img-portada{
-                margin-left: 4rem;
-            } 
-        }
-        @media only screen and (max-width: 1130px) {
-            .img-portada{
-                margin-left: 0rem;
-            } 
-        }
-        @media only screen and (max-width: 1075px) {
-            .img-portada{
-                margin-left: -4rem;
-            } 
-        }
-        @media only screen and (max-width: 926px) {
+        @media only screen and (max-width: 992px) {
             .img-portada{
                 display: none;
             } 
         }
-
     }
-     @media only screen and (max-width: 1234px) {
+    @media only screen and (max-width: 1200px) {
         .c-comercio{
             padding-left: 4rem;
-        } 
-    }
-    @media only screen and (max-width: 950px) {
-        .c-comercio{
-            padding-left: 2rem;
         } 
     }
     

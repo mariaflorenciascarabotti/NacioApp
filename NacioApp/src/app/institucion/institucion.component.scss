@@ -14,6 +14,11 @@
           font-size: 2rem;
         }
     }
+    @media only screen and (max-width: 768px) {
+      .titulo-intitucion{
+        font-size: 2rem;
+      } 
+    }
   }
   
   .fila-dos{
@@ -73,15 +78,16 @@
   }
 }
 
-@media only screen and (max-width: 680px) {
+
+@media only screen and (max-width: 576px) {
   .c-carreras{
-      padding: 1rem 3rem;
+      padding: 1rem 0;
 
   } 
 }
-@media only screen and (max-width: 444px) {
-  .c-carreras{
-      padding: 1rem;
+@media only screen and (max-width: 576px) {
+  .contenedor-todo{
+      padding: 1rem ;
 
   } 
 }

@@ -9,14 +9,54 @@
       }
       .p-estudiante{
         text-align: justify;
-        padding-right: 3.4rem;
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      .col-8{
+          width: 100%;
+      } 
+      .fila-uno>.titulo-estudiante{
+        font-size: 2rem;
+      }
+      .fila-uno>.p.p-estudiante{
+        font-size: 1.2rem;
       }
     }
     
-    .fila-dos{
-      
-        margin-top: 1rem ;
-        
+    .fila-dos{ 
+      margin-top: 1rem ; 
     }
+    @media only screen and (max-width: 992px) {
+      .fila-dos{
+          display: none;
+      } 
+    }
+    .clik-guia{
+      display: none;
+      .click{
+        margin: 1rem;
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      .clik-guia{
+          display: contents;       
+      } 
+    }
+}
+@media only screen and (max-width: 992px) {
+  .contenedor-estudiante{
+    padding: 0 3rem; 
+    margin-right: 0;
+  } 
+  .contenedor-todo{
+    margin-right: 0;
   }
+}
+
+@media only screen and (max-width: 360px) {
   
+  .contenedor-todo{
+    padding: 1rem;
+  }
+}
+

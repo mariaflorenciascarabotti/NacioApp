@@ -30,6 +30,12 @@
     .texto-logo{
         margin-left: 6rem;
     }
+    @media only screen and (max-width: 400px) {
+        .texto-logo{
+            display: none;
+        } 
+    }
+    
     .nav-link:hover{
         border-radius: 20px;
         background-color: rgba(101, 152, 255, 0.527);
@@ -52,4 +58,11 @@
 
     }
 }
-
+@media only screen and (max-width: 380px) {
+    .c-navbar{
+        padding: 0rem 1rem;
+    }
+    img{
+        width: 50px;
+    } 
+}

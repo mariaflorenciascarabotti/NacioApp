@@ -8,6 +8,12 @@
 
     } 
 }
+@media only screen and (max-width: 420px) {
+    .contenedor-todo{
+        padding: 0 2rem;
+
+    } 
+}
 
 .card-body{
     height: 270px;
@@ -16,16 +22,11 @@
     justify-content: space-around;
     .card-title{
         margin: 0;
-        height: 120px;
+        height: 150px;
         span{
             font-size: .8rem;
             font-weight:400;
         }
-    }
-    @media only screen and (max-width: 1084px) {
-        .card-title{
-            height: 150px;
-        } 
     }
 
     p{margin: 0;}
