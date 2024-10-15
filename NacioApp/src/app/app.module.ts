@@ -41,8 +41,8 @@ import { ScrollLinkComponent } from './scroll-link/scroll-link.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule,
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
