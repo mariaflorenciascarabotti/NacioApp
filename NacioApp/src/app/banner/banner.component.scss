@@ -109,7 +109,7 @@
             }
            @media only screen and (max-width: 1200px) {
                 .c-img{
-                    height: 54vh;
+                    height: auto;
                 }
             }
             
@@ -126,7 +126,7 @@
             .img-banner-pq{
                 display: flex;
                 justify-content: flex-end;
-                height: 54vh;
+                height:auto;
                 padding-right: 2rem;
             }
         }
@@ -165,7 +165,7 @@
     } 
     
     .c-analisis{
-        height: 20.5rem;
+        height: auto;
         padding-left: 6rem;
         .nombre-carrera{
             h2{
@@ -241,7 +241,7 @@
    
     
     .c-diseno{
-        height: 20.5rem;
+        height: auto;
         padding-left: 6rem;
         .nombre-carrera{
             h2{
@@ -316,7 +316,7 @@
     }
     
     .c-infra{
-        height: 20.5rem;
+        height: auto;
         padding-left: 6rem;
         .nombre-carrera{
             h2{
@@ -384,7 +384,7 @@
         } 
     }
     .c-comercio{
-        height: 20.5rem;
+        height: auto;
         padding-left: 6rem;
         .nombre-carrera{
             h2{
